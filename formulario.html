@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="aboutus.html">Sobre nós</a>
+                </li>
+                <li>
+                    <a href="BellezaPura.html">Pagina Inicial</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="titleCenter">
+                <h1>Belleza Pura</h1>
+            </div>
+
+            <div class="imgcenter"></div>
+            <img src="./img/logo.png"></img>
+
+            <main id="form-page"> <!-- Usando 'main' com ID exclusivo -->
+                <div class="form-container">
+                    <h2>Cadastro</h2>
+                    <form id="form">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <div class="error" id="emailError"></div>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </main>
+        </header>
+            <script src="script.js"></script>
+
+            <footer>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/marcosjr.lima/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/Instagram-Logo.wine.svg" alt="Instagram">
+                        <div class="text">
+                            <p>Instagram</p>
+                        </div>
+                    </a>
+                    <a href="https://www.facebook.com/marcosjunior.docarmolima/" target="_blank" rel="noopener noreferrer">
+                        <img src="./img/Facebook-f_Logo-Blue-Logo.wine.svg" alt="Facebook">
+                        <div class="text">
+                            <p>Facebook</p>
+                        </div>
+                    </a>
+                </div>
+            
+                <div class="direitos">
+                    <p>&copy; 2024 Belleza Pura. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+</body>
+
+</html>
